@@ -5,7 +5,8 @@
 ###############################################################################
 
 AddToMenu RootMenu "Root Menu" Title
-+ "&Terminal"         Exec exec x-terminal-emulator || xterm
++ "&Emacs"            Exec exec emacs
++ "&Terminal"         Exec exec xterm -fn 9x15
 + "&Clock"            Exec exec xclock
 + ""                  Nop
 + "&Window Ops"       Popup Window-Ops
@@ -142,7 +143,7 @@ EdgeScroll 0 0
 ###############################################################################
 
 DefaultColors \#000000 \#c0c0c0
-DefaultFont xft:Sans:Normal:size=10:antialias=True
+DefaultFont xft:Sans:Normal:size=12:antialias=True
 Emulate Mwm
 MenuStyle * Background \#c0c0c0
 MenuStyle * Foreground \#000000
@@ -153,7 +154,7 @@ Style * ClickToFocus
 Style * DecorateTransient
 Style * EdgeMoveDelay 250
 Style * EdgeMoveResistance 10
-Style * Font xft:Sans:Bold:size=10:antialias=True
+Style * Font xft:Sans:Bold:size=12:antialias=True
 Style * ForeColor \#606060
 Style * FPLenient
 Style * HandleWidth 6
