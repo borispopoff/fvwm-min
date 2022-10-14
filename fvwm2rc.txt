@@ -1,3 +1,6 @@
+## Adding this sample config as a reference.
+## Original is here: https://www-cs-faculty.stanford.edu/~knuth/programs/.fvwm2rc
+
 # This Fvwm2 setup file provides the basic emacs-centered environment
 # that I have found most comfortable on my standalone machine at home.
 # Basically it gives me a big Emacs window at the left and a slightly
