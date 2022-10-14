@@ -50,7 +50,7 @@ Key C A CM            Exec exec xclock
 Key K A CM            Close
 Key M A CM            Menu RootMenu Nop
 Key R A CM            Restart
-Key T A CM            Exec exec x-terminal-emulator || xterm
+Key T A CM            Exec exec xterm
 
 # Simple default mouse bindings for the root window:
 #
@@ -150,7 +150,7 @@ MenuStyle * Foreground \#000000
 MenuStyle * Mwm
 Style * BackColor \#c0c0c0
 Style * BorderWidth 6
-Style * ClickToFocus
+Style * FocusFollowsMouse
 Style * DecorateTransient
 Style * EdgeMoveDelay 250
 Style * EdgeMoveResistance 10
@@ -167,7 +167,7 @@ Style * MwmBorder
 Style * MwmButtons
 Style * MwmDecor
 Style * MwmFunctions
-Style * TileCascadePlacement
+Style * MinOverlapPlacement
 Style * !UsePPosition
 TitleStyle Centered Height 20
 
