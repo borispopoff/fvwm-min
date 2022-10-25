@@ -5,9 +5,10 @@
 ###############################################################################
 
 AddToMenu RootMenu "Root Menu" Title
-+ "&Emacs"            Exec exec emacs
++ "&Emacs"            Exec exec emacs -fn Hack-14
 + "&Terminal"         Exec exec xterm -fn 9x15
 + "&Clock"            Exec exec xclock
++ "&XEyes"            Exec exec xeyes
 + ""                  Nop
 + "&Window Ops"       Popup Window-Ops
 + "&X11 Session"      Popup X11-Session
@@ -22,10 +23,10 @@ AddToMenu Window-Ops
 
 AddToMenu X11-Session
 + "Re&fresh Screen"   Refresh
-+ "&Restart WM"       Restart
++ "&Restart fvwm"       Restart
 + ""                  Nop
 + "Exit to xterm"     Restart xterm
-+ "Exit WM"           Quit
++ "Exit fvwm"           Quit
 
 ###############################################################################
 #                                                                             #
