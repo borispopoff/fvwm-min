@@ -5,7 +5,7 @@
 ###############################################################################
 
 AddToMenu RootMenu "Root Menu" Title
-+ "&Emacs"            Exec exec emacs -fn Hack-14
++ "&Emacs"            Exec exec emacs -fn Hack-13
 + "&Terminal"         Exec exec xterm -fn 9x15
 + "&Clock"            Exec exec xclock
 + "&XEyes"            Exec exec xeyes
@@ -133,7 +133,7 @@ AddToFunc Resize-or-Raise
 ###############################################################################
 
 ClickTime 750
-DeskTopSize 1x6
+DeskTopSize 6x1
 EdgeResistance 250
 EdgeScroll 0 0
 
@@ -203,6 +203,6 @@ Style FvwmPager StaysOnBottom
 *FvwmPager: BalloonFont xft:Sans:Normal:size=8:antialias=True
 *FvwmPager: BalloonFore #000000
 *FvwmPager: BalloonYOffset +2
-*FvwmPager: Geometry 35x150+0+0
+*FvwmPager: Geometry 263x35+0+0
 *FvwmPager: Hilight #111111
 *FvwmPager: SmallFont 5x8
