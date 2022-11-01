@@ -7,7 +7,7 @@
 AddToMenu RootMenu "Root Menu" Title
 + "&Emacs"            Exec exec emacs -fn Hack-13
 + "&Terminal"         Exec exec xterm -fn 9x15
-+ "&Clock"            Exec exec xclock
++ "&XClock"           Exec exec xclock
 + "&XEyes"            Exec exec xeyes
 + ""                  Nop
 + "&Window Ops"       Popup Window-Ops
