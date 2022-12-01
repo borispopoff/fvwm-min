@@ -152,7 +152,7 @@ MenuStyle * Foreground \#000000
 MenuStyle * Mwm
 Style * BackColor \#c0c0c0
 Style * BorderWidth 6
-Style * FocusFollowsMouse
+Style * ClickToFocus
 Style * DecorateTransient
 Style * EdgeMoveDelay 250
 Style * EdgeMoveResistance 10
