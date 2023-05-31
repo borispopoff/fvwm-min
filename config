@@ -5,11 +5,13 @@
 ###############################################################################
 
 AddToMenu RootMenu "Root Menu" Title
++ "&Terminal"    Exec exec xterm -fg palegoldenrod -bg darkblue -fn 9x15
+
++ "&Top"              Exec exec xterm -rv -fn 9x15 -e top
 + "&Emacs"            Exec exec emacs
-+ "&Terminal"         Exec exec xterm -fn 9x15
-+ "&XClock"           Exec exec xclock
-+ "&XEyes"            Exec exec xeyes
-+ "&Top"            Exec exec xterm -e top
++ "&Code"             Exec exec ~/VSCode-linux-x64/code
++ "&XClock"   	      Exec exec xclock
++ "&XEyes"   	      Exec exec xeyes
 + ""                  Nop
 + "&Window Ops"       Popup Window-Ops
 + "&X11 Session"      Popup X11-Session
@@ -134,7 +136,7 @@ AddToFunc Resize-or-Raise
 ###############################################################################
 
 ClickTime 750
-DeskTopSize 2x2
+DeskTopSize 2x3
 EdgeResistance 250
 EdgeScroll 0 0
 
@@ -145,7 +147,7 @@ EdgeScroll 0 0
 ###############################################################################
 
 DefaultColors \#000000 \#c0c0c0
-DefaultFont xft:Sans:Normal:size=12:antialias=True
+DefaultFont xft:Sans:Italic:size=12:antialias=True
 Emulate Mwm
 MenuStyle * Background \#c0c0c0
 MenuStyle * Foreground \#000000
@@ -156,7 +158,7 @@ Style * ClickToFocus
 Style * DecorateTransient
 Style * EdgeMoveDelay 250
 Style * EdgeMoveResistance 10
-Style * Font xft:Sans:Bold:size=12:antialias=True
+Style * Font xft:Sans:Italic:Bold:size=12:antialias=True
 Style * ForeColor \#606060
 Style * FPLenient
 Style * HandleWidth 6
@@ -192,7 +194,7 @@ Style FvwmPager FixedPosition
 Style FvwmPager FixedSize
 Style FvwmPager HandleWidth 1
 Style FvwmPager HilightBack #000000
-Style FvwmPager StaysOnBottom
+Style FvwmPager StaysOnTop
 
 *FvwmPager: Back #666666
 *FvwmPager: Fore #444444
@@ -204,6 +206,6 @@ Style FvwmPager StaysOnBottom
 *FvwmPager: BalloonFont xft:Sans:Normal:size=8:antialias=True
 *FvwmPager: BalloonFore #000000
 *FvwmPager: BalloonYOffset +2
-*FvwmPager: Geometry 124x70+0+0
+*FvwmPager: Geometry 124x105+0+0
 *FvwmPager: Hilight #111111
 *FvwmPager: SmallFont 5x8
