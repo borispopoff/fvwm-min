@@ -194,7 +194,7 @@ Style FvwmPager FixedPosition
 Style FvwmPager FixedSize
 Style FvwmPager HandleWidth 1
 Style FvwmPager HilightBack #000000
-# Style FvwmPager StaysOnTop
+Style FvwmPager StaysOnBottom
 
 *FvwmPager: Back #666666
 *FvwmPager: Fore #444444
