@@ -5,9 +5,9 @@
 ###############################################################################
 
 AddToMenu RootMenu "Root Menu" Title
-+ "&Terminal"    Exec exec xterm -fg palegoldenrod -bg darkblue -fn 9x15
-
-+ "&Top"              Exec exec xterm -rv -fn 9x15 -e top
+# + "&Terminal"    Exec exec xterm -fg palegoldenrod -bg darkblue -fn 9x15
++ "&Terminal"    Exec exec xterm -fg palegoldenrod -bg darkblue -fn 10x20
++ "&Top"              Exec exec xterm -rv -fn 10x20 -e top
 + "&Emacs"            Exec exec emacs
 + "&Code"             Exec exec ~/VSCode-linux-x64/code
 + "&XClock"   	      Exec exec xclock
@@ -194,7 +194,7 @@ Style FvwmPager FixedPosition
 Style FvwmPager FixedSize
 Style FvwmPager HandleWidth 1
 Style FvwmPager HilightBack #000000
-Style FvwmPager StaysOnTop
+# Style FvwmPager StaysOnTop
 
 *FvwmPager: Back #666666
 *FvwmPager: Fore #444444
