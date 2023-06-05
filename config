@@ -5,8 +5,7 @@
 ###############################################################################
 
 AddToMenu RootMenu "Root Menu" Title
-# + "&Terminal"    Exec exec xterm -fg palegoldenrod -bg darkblue -fn 9x15
-+ "&Terminal"    Exec exec xterm -fg palegoldenrod -bg darkblue -fn 10x20
++ "&Terminal"         Exec exec xterm -fn 10x20
 + "&Top"              Exec exec xterm -rv -fn 10x20 -e top
 + "&Emacs"            Exec exec emacs
 + "&Code"             Exec exec ~/VSCode-linux-x64/code
@@ -188,24 +187,27 @@ Style Fvwm* WindowListSkip
 #                                                                             #
 ###############################################################################
 
-Style FvwmPager BackColor #000000
-Style FvwmPager BorderWidth 1
-Style FvwmPager FixedPosition
-Style FvwmPager FixedSize
-Style FvwmPager HandleWidth 1
-Style FvwmPager HilightBack #000000
-Style FvwmPager StaysOnBottom
+Style FvwmPager Sticky, StaysOnTop,
+*FvwmPager: Geometry 0+0
 
-*FvwmPager: Back #666666
-*FvwmPager: Fore #444444
-*FvwmPager: Font none
-*FvwmPager: Balloons All
-*FvwmPager: BalloonBack #ffffff
-*FvwmPager: BalloonBorderColor #000000
-*FvwmPager: BalloonBorderWidth 1
-*FvwmPager: BalloonFont xft:Sans:Normal:size=8:antialias=True
-*FvwmPager: BalloonFore #000000
-*FvwmPager: BalloonYOffset +2
-*FvwmPager: Geometry 124x105+0+0
-*FvwmPager: Hilight #111111
-*FvwmPager: SmallFont 5x8
+## Style FvwmPager BackColor #000000
+## Style FvwmPager BorderWidth 1
+## Style FvwmPager FixedPosition
+## Style FvwmPager FixedSize
+## Style FvwmPager HandleWidth 1
+## Style FvwmPager HilightBack #000000
+## Style FvwmPager StaysOnBottom
+## 
+## *FvwmPager: Back #666666
+## *FvwmPager: Fore #444444
+## *FvwmPager: Font none
+## *FvwmPager: Balloons All
+## *FvwmPager: BalloonBack #ffffff
+## *FvwmPager: BalloonBorderColor #000000
+## *FvwmPager: BalloonBorderWidth 1
+## *FvwmPager: BalloonFont xft:Sans:Normal:size=8:antialias=True
+## *FvwmPager: BalloonFore #000000
+## *FvwmPager: BalloonYOffset +2
+## *FvwmPager: Geometry 124x105+0+0
+## *FvwmPager: Hilight #111111
+## *FvwmPager: SmallFont 5x8
