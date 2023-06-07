@@ -170,7 +170,7 @@ Style * MwmBorder
 Style * MwmButtons
 Style * MwmDecor
 Style * MwmFunctions
-Style * MinOverlapPlacement
+## Style * MinOverlapPlacement
 Style * !UsePPosition
 TitleStyle Centered Height 20
 
