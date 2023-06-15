@@ -11,6 +11,7 @@ AddToMenu RootMenu "Root Menu" Title
 + "&Code"             Exec exec ~/VSCode-linux-x64/code --no-sandbox
 + "&XClock"   	      Exec exec xclock
 + "&XEyes"   	      Exec exec xeyes
++ "&Firefox"   	      Exec exec firefox
 + ""                  Nop
 + "&Window Ops"       Popup Window-Ops
 + "&X11 Session"      Popup X11-Session
