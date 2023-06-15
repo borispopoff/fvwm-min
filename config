@@ -8,7 +8,7 @@ AddToMenu RootMenu "Root Menu" Title
 + "&Terminal"         Exec exec xterm -fn 10x20
 + "&Top"              Exec exec xterm -rv -fn 10x20 -e top
 + "&Emacs"            Exec exec emacs
-+ "&Code"             Exec exec ~/VSCode-linux-x64/code
++ "&Code"             Exec exec ~/VSCode-linux-x64/code --no-sandbox
 + "&XClock"   	      Exec exec xclock
 + "&XEyes"   	      Exec exec xeyes
 + ""                  Nop
@@ -135,7 +135,7 @@ AddToFunc Resize-or-Raise
 ###############################################################################
 
 ClickTime 750
-DeskTopSize 2x3
+DeskTopSize 2x2
 EdgeResistance 250
 EdgeScroll 0 0
 
@@ -165,7 +165,7 @@ Style * HilightBack \#c0c0c0
 Style * HilightFore \#000000
 Style * HintOverride
 Style * Icon /usr/share/pixmaps/fvwm/xterm.xpm
-Style * IconBox 1 -300 -1 -1, IconFill Left Bottom
+Style * IconBox 1 -300 -1 -1, IconFill Left Top
 Style * MwmBorder
 Style * MwmButtons
 Style * MwmDecor
@@ -187,7 +187,7 @@ Style Fvwm* WindowListSkip
 #                                                                             #
 ###############################################################################
 
-Style FvwmPager Sticky, StaysOnTop,
+Style FvwmPager Sticky, StaysOnBottom,
 *FvwmPager: Geometry 0+0
 
 ## Style FvwmPager BackColor #000000
