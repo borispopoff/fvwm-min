@@ -5,7 +5,10 @@
 ###############################################################################
 
 AddToMenu RootMenu "Root Menu" Title
-+ "&Terminal"         Exec exec xterm -fn 10x20
++ "&Terminal"         Exec exec xterm -rv -fn 10x20
++ "&Terminal Light"   Exec exec xterm -bg lightyellow -fn 10x20
++ "&Terminal Red"     Exec exec xterm -bg darkred -fg white -fn 10x20
+
 + "&Top"              Exec exec xterm -rv -fn 10x20 -e top
 + "&Emacs"            Exec exec emacs
 + "&Code"             Exec exec ~/VSCode-linux-x64/code --no-sandbox
@@ -167,9 +170,9 @@ Style * HilightFore \#000000
 Style * HintOverride
 Style * Icon /usr/share/pixmaps/fvwm/xterm.xpm
 Style * IconBox 1 -300 -1 -1, IconFill Left Top
-Style * MwmBorder
+## Style * MwmBorder
 Style * MwmButtons
-Style * MwmDecor
+## Style * MwmDecor
 Style * MwmFunctions
 ## Style * MinOverlapPlacement
 Style * !UsePPosition
