@@ -11,6 +11,7 @@ AddToMenu RootMenu "Root Menu" Title
 
 + "&Top"              Exec exec xterm -rv -fn 10x20 -e top
 + "&Emacs"            Exec exec emacs
++ "&Gedit"            Exec exec gedit
 + "&Code"             Exec exec ~/VSCode-linux-x64/code --no-sandbox
 + "&XClock"   	      Exec exec xclock
 + "&XEyes"   	      Exec exec xeyes
@@ -58,6 +59,8 @@ Key K A CM            Close
 Key M A CM            Menu RootMenu Nop
 Key R A CM            Restart
 Key T A CM            Exec exec xterm
+
+Key W A CM            Menu Window-Ops Nop
 
 # Simple default mouse bindings for the root window:
 #
