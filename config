@@ -5,7 +5,7 @@
 ###############################################################################
 
 AddToMenu RootMenu "Root Menu" Title
-+ "&Terminal"         Exec exec xterm -fn 10x20
++ "&Terminal"         Exec exec xterm -fn 10x20 -rv
 + "&Terminal Light"   Exec exec xterm -bg lightyellow -fn 10x20
 + "&Terminal Red"     Exec exec xterm -bg darkred -fg white -fn 10x20
 
