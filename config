@@ -11,7 +11,6 @@ AddToMenu RootMenu "Root Menu" Title
 
 + "&Top"              Exec exec xterm -rv -fn 10x20 -e top
 + "&Emacs"            Exec exec emacs
-+ "&Gedit"            Exec exec gedit
 + "&Code"             Exec exec ~/VSCode-linux-x64/code --no-sandbox
 + "&XClock"   	      Exec exec xclock
 + "&XEyes"   	      Exec exec xeyes
@@ -142,7 +141,7 @@ AddToFunc Resize-or-Raise
 ###############################################################################
 
 ClickTime 750
-DeskTopSize 2x2
+DeskTopSize 2x3
 EdgeResistance 250
 EdgeScroll 0 0
 
