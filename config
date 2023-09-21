@@ -168,7 +168,7 @@ Style * HilightBack \#c0c0c0
 Style * HilightFore \#000000
 Style * HintOverride
 Style * Icon /usr/share/pixmaps/fvwm/xterm.xpm
-Style * IconBox 1 -300 -1 -1, IconFill Left Top
+Style * IconBox 1 -300 -1 -1, IconFill Left Bottom
 ## Style * MinOverlapPlacement
 Style * !UsePPosition
 TitleStyle Centered Height 20
