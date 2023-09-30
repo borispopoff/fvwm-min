@@ -190,5 +190,5 @@ Style * MwmDecor
 #                                                                             #
 ###############################################################################
 
-Style FvwmPager Sticky, StaysOnBottom,
+Style FvwmPager Sticky, StaysOnTop,
 *FvwmPager: Geometry 0+0
