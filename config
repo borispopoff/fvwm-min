@@ -138,7 +138,7 @@ AddToFunc Resize-or-Raise
 ###############################################################################
 
 ClickTime 750
-DeskTopSize 2x2
+DeskTopSize 1x4
 EdgeResistance 250
 EdgeScroll 0 0
 
@@ -190,5 +190,28 @@ Style * MwmDecor
 #                                                                             #
 ###############################################################################
 
-Style FvwmPager Sticky, StaysOnTop,
-*FvwmPager: Geometry 0+0
+Style FvwmPager BackColor #000000
+Style FvwmPager BorderWidth 1
+Style FvwmPager FixedPosition
+Style FvwmPager FixedSize
+Style FvwmPager HandleWidth 1
+Style FvwmPager HilightBack #000000
+Style FvwmPager StaysOnBottom
+
+*FvwmPager: Back #666666
+*FvwmPager: Fore #444444
+*FvwmPager: Font none
+*FvwmPager: Balloons All
+*FvwmPager: BalloonBack #ffffff
+*FvwmPager: BalloonBorderColor #000000
+*FvwmPager: BalloonBorderWidth 1
+*FvwmPager: BalloonFont xft:Sans:Normal:size=8:antialias=True
+*FvwmPager: BalloonFore #000000
+*FvwmPager: BalloonYOffset +2
+*FvwmPager: Geometry 35x150+0+0
+*FvwmPager: Hilight #222222
+*FvwmPager: Label 0 1
+*FvwmPager: Label 1 2
+*FvwmPager: Label 2 3
+*FvwmPager: Label 3 4
+*FvwmPager: SmallFont 5x8
