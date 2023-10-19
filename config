@@ -8,6 +8,7 @@ AddToMenu RootMenu "Root Menu" Title
 + "&Xterm"	            Exec exec xterm -fn 10x20
 + "&Gnome Terminal"     Exec exec gnome-terminal
 + "&Emacs"              Exec exec emacs
++ "&Gedit"              Exec exec gedit
 
 ## + "&XClock"   	      Exec exec xclock
 ## + "&XEyes"   	      Exec exec xeyes
