@@ -9,6 +9,7 @@ AddToMenu RootMenu "Root Menu" Title
 + "&Gnome Terminal"     Exec exec gnome-terminal
 + "&Emacs"              Exec exec emacs
 + "&Gedit"              Exec exec gedit
++ "&Nautilus"           Exec exec nautilus
 
 ## + "&XClock"   	      Exec exec xclock
 ## + "&XEyes"   	      Exec exec xeyes
