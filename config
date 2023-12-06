@@ -5,6 +5,7 @@
 ###############################################################################
 
 AddToMenu RootMenu "Root Menu" Title
++ "&Rxvt"                  Exec exec rxvt -rv -fn 10x20
 + "&Xterm"	            Exec exec xterm -fn 10x20
 + "&Gnome Terminal"     Exec exec gnome-terminal
 + "&Emacs"              Exec exec emacs
