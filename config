@@ -183,9 +183,9 @@ Style Fvwm* Sticky
 Style Fvwm* !Title
 Style Fvwm* WindowListSkip
 
-## Style * MwmBorder
-## Style * MwmButtons
-## Style * MwmDecor
+Style * MwmBorder
+Style * MwmButtons
+Style * MwmDecor
 
 
 ###############################################################################
