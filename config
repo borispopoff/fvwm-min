@@ -5,14 +5,9 @@
 ###############################################################################
 
 AddToMenu RootMenu "Root Menu" Title
-+ "&Rxvt"                  Exec exec rxvt -rv -fn 10x20
 + "&Xterm"	            Exec exec xterm -rv -fn 10x20
 + "&Gnome Terminal"     Exec exec gnome-terminal
-+ "&Gedit"              Exec exec gedit
 + "&Emacs"              Exec exec emacs
-+ "&Xnedit"              Exec exec xnedit
-+ "&Nautilus"           Exec exec nautilus
-
 ## + "&XClock"   	      Exec exec xclock
 ## + "&XEyes"   	      Exec exec xeyes
 + "&Firefox"   	      Exec exec firefox
