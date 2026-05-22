@@ -5,7 +5,12 @@
 ###############################################################################
 
 AddToMenu RootMenu "Root Menu" Title
-+ "&Terminal"         Exec exec x-terminal-emulator || xterm
++ "&Files"         Exec exec nautilus
++ "&Firefox"         Exec exec firefox
++ "&Codium"         Exec exec codium
++ "&Code"         Exec exec code
++ "&Emacs"         Exec exec emacs
++ "&Terminal"         Exec exec xterm
 + "&Clock"            Exec exec xclock
 + ""                  Nop
 + "&Window Ops"       Popup Window-Ops
@@ -49,7 +54,7 @@ Key C A CM            Exec exec xclock
 Key K A CM            Close
 Key M A CM            Menu RootMenu Nop
 Key R A CM            Restart
-Key T A CM            Exec exec x-terminal-emulator || xterm
+Key T A CM            Exec exec xterm
 
 # Simple default mouse bindings for the root window:
 #
