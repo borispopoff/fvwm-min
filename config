@@ -10,6 +10,7 @@ AddToMenu RootMenu "Root Menu" Title
 + "&Codium"         Exec exec codium
 + "&Code"         Exec exec code
 + "&Emacs"         Exec exec emacs
++ "&Acme"         Exec exec acme
 + "&Terminal"         Exec exec xterm
 + "&Clock"            Exec exec xclock
 + ""                  Nop
