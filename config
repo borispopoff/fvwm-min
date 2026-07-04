@@ -11,6 +11,7 @@ AddToMenu RootMenu "Root Menu" Title
 + "&Code"         Exec exec code
 + "&Emacs"         Exec exec emacs
 + "&Acme"         Exec exec acme
++ "&GVim"         Exec exec gvim
 + "&Terminal"         Exec exec xterm
 + "&Clock"            Exec exec xclock
 + ""                  Nop
