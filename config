@@ -7,11 +7,9 @@
 AddToMenu RootMenu "Root Menu" Title
 + "&Files"         Exec exec nautilus
 + "&Firefox"         Exec exec firefox
-+ "&Codium"         Exec exec codium
 + "&Code"         Exec exec code
 + "&Emacs"         Exec exec emacs
 + "&Acme"         Exec exec acme
-+ "&GVim"         Exec exec gvim
 + "&Terminal"         Exec exec xterm
 + "&Clock"            Exec exec xclock
 + ""                  Nop
