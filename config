@@ -5,7 +5,7 @@
 ###############################################################################
 
 AddToMenu RootMenu "Root Menu" Title
-+ "&Files"         Exec exec nautilus
++ "&Nautilus"         Exec exec nautilus
 + "&Firefox"         Exec exec firefox
 + "&Code"         Exec exec code
 + "&Emacs"         Exec exec emacs
